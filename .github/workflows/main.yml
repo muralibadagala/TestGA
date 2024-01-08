@@ -1,0 +1,11 @@
+name: "FirstWF"
+'on': push
+jobs:
+  echo-job:
+    runs-on: ubuntu:latest
+    steps:
+      - name: firstjob
+        run: echo "Hello World"
+    
+  
+  
