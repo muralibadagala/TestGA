@@ -7,7 +7,7 @@ jobs:
       - name: firstjob
         run: echo "Hello World From Ubuntu"
   echo-job-centos:
-    runs-on: centos-latest
+    runs-on: macos-latest
     steps:
       - name: secondjob
         run: echo "this is murali from CentOS"        
