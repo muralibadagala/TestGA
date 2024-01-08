@@ -1,11 +1,18 @@
 name: "FirstWF"
 'on': push
 jobs:
-  echo-job:
+  echo-job-ubuntu:
     runs-on: ubuntu-latest
     steps:
       - name: firstjob
-        run: echo "Hello World"
+        run: echo "Hello World From Ubuntu"
+  echo-job-centos:
+    runs-on: centos
+    steps:
+      - name: secondjob
+        run: echo "this is murali from CentOS"        
+
+        
     
   
   
